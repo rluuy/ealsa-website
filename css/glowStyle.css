@@ -1,0 +1,110 @@
+    :root {
+        --stroke: .05%;
+        --dash: 1%;
+        --blue: #1B578C;
+        --red: #D90D1E;
+        --green: #60BF81;
+        --radius: 0em;
+        --hover: 33%;
+    }
+
+     /* Optical System Styling */
+
+    .svg-optical-element {
+        fill: #27aae1;
+        stroke: #a7a9ac;
+        stroke-width: .15%;
+        opacity: 65%;
+    }
+
+    .svg-optical-element:hover {
+        opacity: 88%;
+    }
+
+    .svg-detector-element {
+        fill: transparent;
+        stroke: #58595b;
+        stroke-width: .125%;
+        stroke-linecap: round;
+    }
+
+    .svg-aperture-element {
+        fill: transparent;
+        /* stroke-dasharray: 2%; */
+        stroke: #58595b;
+        stroke-width: .1em;
+    }
+
+    .svg-source-0-marginal:hover{
+        opacity: var(--hover);
+    }
+
+    .svg-source-1-marginal:hover {
+        opacity: var(--hover);
+       }
+
+     .svg-source-2-marginal:hover {
+        opacity: var(--hover);
+    }
+
+    .svg-source-0 {
+        fill: transparent;
+        stroke: var(--blue);
+        stroke-width: var(--stroke);
+    }
+
+    .svg-source-1 {
+        fill: transparent;
+        stroke: var(--green);
+        stroke-width: var(--stroke);
+     }
+
+    .svg-source-2 {
+        fill: transparent;
+        stroke: var(--red);
+        stroke-width: var(--stroke);
+    }
+
+    .svg-source-0-marginal {
+        fill: var(--blue);
+        stroke: var(--blue);
+        opacity: 8%;
+        stroke-width: var(--stroke);
+    }
+
+    .svg-source-1-marginal {
+        fill: var(--green);
+        stroke: var(--green);
+        opacity: 8%;
+        stroke-width: var(--stroke)
+     }
+
+    .svg-source-2-marginal {
+        fill: var(--red);
+        stroke: var(--red);
+        opacity: 8%;
+        stroke-width: var(--stroke);
+    }
+
+    .svg-source-0-chief {
+        fill: transparent;
+        stroke: var(--blue);
+        stroke-width: var(--stroke);
+        stroke-dasharray: var(--dash);
+    }
+
+    .svg-source-1-chief {
+        fill: transparent;
+        stroke: var(--green);
+        stroke-width: var(--stroke);
+        stroke-dasharray: var(--dash);
+    }
+
+    .svg-source-2-chief {
+        fill: transparent;
+        stroke: var(--red);
+        stroke-width: var(--stroke);
+        stroke-dasharray: var(--dash);
+    }
+
+    
